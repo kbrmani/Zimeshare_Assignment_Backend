@@ -3,7 +3,7 @@ const { MongoClient } = require("mongodb");
 
 async function client() {
   try{
-    const client = new MongoClient("mongodb+srv://kbrmanish01:VrI6r7rR04Xud1k9@cluster0.pxxma.mongodb.net/");
+    const client = new MongoClient("mongodb+srv://kbrmanish01:VrI6r7rR04Xud1k9@cluster0.pxxma.mongodb.net/Zimeshare_Assignment?retryWrites=true&w=majority");
     await client.connect();
     return client;
   }
