@@ -6,7 +6,7 @@ const { giveCollection } = require('./client')
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(express.static(path.join(__dirname, '../../zimeshare_assignment')));
+app.use(express.static(path.join(__dirname, 'https://github.com/kbrmani/zimeshare_assignment/blob/main/index.html')));
 
 app.get('/api/products', async (req, res) => {
 
